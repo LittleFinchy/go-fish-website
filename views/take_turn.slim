@@ -1,0 +1,45 @@
+.turn-title-box
+  h1.turn-title Your Turn 
+p.turn-under-title Pick a card and player...
+form.turn-page-form
+  .card-view-box
+    p Stephen: 2 books
+    .card-view
+      input.selectable-card type="radio" id="card1" name="playingcard"
+      label.playing-card for="card1" K
+      input.selectable-card type="radio" id="card2" name="playingcard"
+      label.playing-card for="card2" 4
+      input.selectable-card type="radio" id="card3" name="playingcard"
+      label.playing-card for="card3" 6
+      input.selectable-card type="radio" id="card4" name="playingcard"
+      label.playing-card for="card4" 7
+      input.selectable-card type="radio" id="card5" name="playingcard"
+      label.playing-card for="card5" 2
+      input.selectable-card type="radio" id="card6" name="playingcard"
+      label.playing-card for="card6" 9
+      input.selectable-card type="radio" id="card7" name="playingcard"
+      label.playing-card for="card7" K
+      input.selectable-card type="radio" id="card8" name="playingcard"
+      label.playing-card for="card8" J
+  .player-view-box
+    p Other Players: 2, Bots: 1
+    .player-view
+      input.selectable-card type="radio" id="player1" name="playercard"
+      label.player-card for="player1"
+        p.player-name Mary
+        ul 
+          li Cards: 5
+          li Books: 2
+      input.selectable-card type="radio" id="player2" name="playercard"
+      label.player-card for="player2" 
+        p Edde
+        ul 
+          li Cards: 4
+          li Books: 0
+      input.selectable-card type="radio" id="player3" name="playercard"
+      label.player-card for="player3" 
+        p myBot
+        ul 
+          li Cards: 3
+          li Books: 5
+a.ask href="#" Ask 
