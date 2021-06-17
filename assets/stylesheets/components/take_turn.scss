@@ -7,35 +7,47 @@
 .turn-title {
   margin-top: 2rem;
   text-align: center;
+  font-size: 3rem;
 }
 
 .turn-under-title {
   text-align: center;
+  font-style: italic;
 }
 
 .turn-page-form {
+  margin: 2rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  align-items: flex-start;
   gap: var(--space-md);
 }
 
 .card-view-box {
-  border: 2px solid red;
+  border: 1px solid black;
   flex: 1;
   min-width: $breakpoint-xxs;
+
+  & p {
+    margin-left: 1rem;
+  }
 }
 
 .card-view {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   padding: 1rem;
 }
 
 .player-view-box {
-  border: 2px solid red;
   flex: 1;
   min-width: $breakpoint-xxs;
+
+  & p {
+    margin-left: 1rem;
+  }
 }
 
 .player-view {
@@ -53,16 +65,16 @@
   justify-content: center;
   align-items: center;
 
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
+  & p {
+    font-size: 2rem;
+    margin: 0;
+  }
 
-.player-name {
-  font-size: 2rem;
+  & ul {
+    list-style-type: none;
+  }
+
+  user-select: none;
 }
 
 // FORM
@@ -79,15 +91,19 @@
 .playing-card {
   display: flex;
   border: 1px solid blue;
+  font-size: 2rem;
   width: 5rem;
   height: 6rem;
   justify-content: center;
   align-items: center;
 
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
+}
+
+.btn-ask {
+  display: block;
+  border: 2px solid red;
+  padding: 1rem 4rem;
+  margin: 0 auto;
+  font-size: 1.5rem;
 }

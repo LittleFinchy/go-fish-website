@@ -1,0 +1,50 @@
+.end-title-box {
+  margin: 0 auto;
+  width: 25%;
+  border-bottom: 2px solid red;
+}
+
+.end-title {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.winners-box  {
+  padding: 1rem 0;
+  margin: 0 auto;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-bottom: 2px solid red;
+  width: 25%;
+  gap: 1rem;
+}
+
+.player-score {
+  text-align: center;
+  padding: 2rem;
+  border: 1px solid black;
+  width: 90%;
+  font-size: 1.2rem;
+}
+
+.winning-player-score {
+  width: 100%;
+  font-size: 1.5rem;
+  // background-color: gold;
+  border: .4rem solid gold;
+}
+
+.link-play-again {
+  display: block;
+  margin: 2rem auto 0;
+  padding: 1rem;
+  width: 15%;
+  text-align: center;
+  text-decoration: none;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
