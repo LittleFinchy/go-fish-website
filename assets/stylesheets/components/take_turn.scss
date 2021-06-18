@@ -1,7 +1,7 @@
 .turn-title-box {
   margin: 0 auto;
   width: 25%;
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid $color-secondary-700;
 }
 
 .turn-title {
@@ -17,6 +17,7 @@
 
 .turn-page-form {
   margin: 2rem;
+  margin-bottom: 3rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -84,13 +85,13 @@
 
   &:checked + label {
     outline: rgba(77, 97, 171, 0.5) auto 3px;
-    background-color: red;
+    background-color: $color-primary-900;
   }
 }
 
 .playing-card {
   display: flex;
-  border: 1px solid blue;
+  border: 1px solid $color-secondary-700;
   font-size: 2rem;
   width: 5rem;
   height: 6rem;
