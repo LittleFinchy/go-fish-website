@@ -1,7 +1,7 @@
 .end-title-box {
   margin: 0 auto;
   width: 25%;
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid var(--color-primary);
 }
 
 .end-title {
@@ -18,7 +18,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: space-evenly;
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid var(--color-primary);
   width: 25%;
   gap: 1rem;
 }
@@ -26,16 +26,17 @@
 .player-score {
   text-align: center;
   padding: 2rem;
-  border: 1px solid black;
+  border: 1px solid var(--neutral-layer-1-border);
+  background-color: var(--neutral-layer-1-background);
   width: 90%;
   font-size: 1.2rem;
+  user-select: none;
 }
 
 .winning-player-score {
   width: 100%;
   font-size: 1.5rem;
-  // background-color: gold;
-  border: .4rem solid gold;
+  border: 2px solid var(--color-secondary);
 }
 
 .link-play-again {
@@ -43,8 +44,10 @@
   margin: 2rem auto 0;
   padding: 1rem;
   width: 15%;
+  font-size: 1.2rem;
   text-align: center;
   text-decoration: none;
-  border-left: 2px solid black;
-  border-right: 2px solid black;
+  color: var(--color-secondary);
+  border: 1px solid var(--neutral-layer-1-border);
+  background-color: var(--neutral-layer-1-background);
 }
