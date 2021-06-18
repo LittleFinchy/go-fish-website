@@ -4,7 +4,7 @@ $color-primary-50: hsl(336, 6%, 97%);
 $color-primary-100: hsl(336, 13%, 93%);
 $color-primary-200: hsl(338, 23%, 86%);
 $color-primary-300: hsl(339, 35%, 79%);
-$color-primary-400: hsl(339, 47%, 72%);
+$color-primary-400: hsl(339, 100%, 26%);
 $color-primary-500: hsl(339, 58%, 64%);
 $color-primary-600: hsl(339, 68%, 56%);
 $color-primary-700: hsl(339, 76%, 49%);
@@ -15,7 +15,7 @@ $color-secondary-50: hsl(185, 10%, 95%);
 $color-secondary-100: hsl(185, 21%, 91%);
 $color-secondary-200: hsl(186, 37%, 82%);
 $color-secondary-300: hsl(187, 56%, 72%);
-$color-secondary-400: hsl(187, 73%, 63%);
+$color-secondary-400: hsl(187, 91%, 45%);
 $color-secondary-500: hsl(188, 84%, 56%);
 $color-secondary-600: hsl(187, 89%, 50%);
 $color-secondary-700: hsl(188, 91%, 45%);
@@ -171,7 +171,7 @@ $color-black: #010204;
   
       // Neutrals
       --neutral-layer-app-background: #{$color-neutral-900};
-      --neutral-layer-app-text: #{$color-white};
+      --neutral-layer-app-text: #{$color-neutral-100};
   
       --neutral-layer-1-background: #{$color-neutral-800};
       --neutral-layer-1-text: #{$color-neutral-300};

@@ -1,7 +1,7 @@
 .turn-title-box {
   margin: 0 auto;
   width: 25%;
-  border-bottom: 2px solid $color-secondary-700;
+  border-bottom: 2px solid var(--color-secondary);
 }
 
 .turn-title {
@@ -26,9 +26,10 @@
 }
 
 .card-view-box {
-  border: 1px solid black;
+  border: 1px solid var(--neutral-layer-1-border);
   flex: 1;
   min-width: $breakpoint-xxs;
+  background-color: var(--neutral-layer-1-background);
 
   & p {
     margin-left: 1rem;
@@ -60,7 +61,7 @@
 
 .player-card {
   display: flex;
-  border: 1px solid blue;
+  border: 1px solid var(--color-secondary);
   width: 100%;
   height: 6rem;
   justify-content: center;
@@ -85,13 +86,14 @@
 
   &:checked + label {
     outline: rgba(77, 97, 171, 0.5) auto 3px;
-    background-color: $color-primary-900;
+    background-color: var(--color-secondary);
   }
 }
 
 .playing-card {
   display: flex;
-  border: 1px solid $color-secondary-700;
+  border: 1px solid var(--neutral-layer-2-border);
+  background-color: var(--neutral-layer-2-background);
   font-size: 2rem;
   width: 5rem;
   height: 6rem;
@@ -103,7 +105,7 @@
 
 .btn-ask {
   display: block;
-  border: 2px solid red;
+  border: 2px solid var(--color-primary);
   padding: 1rem 4rem;
   margin: 0 auto;
   font-size: 1.5rem;
