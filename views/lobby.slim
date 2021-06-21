@@ -1,1 +1,22 @@
-a.btn href="/take_turn" Play Go Fish
+.lobby-title-box
+  h1.lobby-title Welcome to Go Fish!
+  p.lobby-under-title Select a game to join or host your own! Good luck!
+  p.lobby-under-title Name: Finchy 
+form action='/take_turn' method='GET'
+  .lobby-games 
+    .lobby-colums
+      p Available Games 
+      p Players
+    input.selectable-card type="radio" id="game1" name="game"
+    label.game-display  for="game1"
+      p fishy
+      p 3/4
+    input.selectable-card type="radio" id="game2" name="game"
+    label.game-display  for="game2"
+      p lets get this bread
+      p 2/5
+    input.selectable-card type="radio" id="game3" name="game"
+    label.game-display  for="game3"
+      p banananan
+      p 1/7
+    button.btn.btn--primary type="submit" Play Go Fish
